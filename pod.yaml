@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: nginx
+  namespace: expense
+  labels:
+   name: nginx
+   project: expense
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    Ports:
+    - containerPort: 80
