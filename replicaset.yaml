@@ -8,7 +8,7 @@ spec:
   replicas: 10
   selector:
     matchLabels:
-      purspose: rs-demo
+      purpose: rs-demo
   template:
    metadata:
     labels:
